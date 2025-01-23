@@ -1,7 +1,8 @@
-# llm-sandbox-on-steroids
-🔥 [WIP] LLM Sandbox on Steroids 🔥
+# 🔥 LLM Sandbox on Steroids 🔥
 
-Let's put Obsidian aside and gather all my notes and progress in one public place
+> Work in progress
+
+Let's put Obsidian aside and gather all my notes and education progress in one public place
 
 - My Prompts lives [here](prompts%2FREADME.md)
 
