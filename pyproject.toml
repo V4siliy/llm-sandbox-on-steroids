@@ -1,0 +1,15 @@
+[project]
+name = "llm-sandbox-on-steroids"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "anthropic>=0.44.0",
+    "graphviz>=0.20.3",
+    "notebook>=7.3.2",
+    "numpy>=2.2.1",
+    "pandas>=2.2.3",
+    "python-dotenv>=1.0.1",
+    "scikit-learn>=1.6.1",
+]
