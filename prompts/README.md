@@ -22,3 +22,10 @@ There are some prompts that I'm using on a daily basis.
 
 - [experts.md](experts.md)
 - [experts.py](experts.py)
+
+## Grammar checker
+
+> Something that improves sentences
+
+- [grammar.md](grammar.md)
+- [grammar.py](grammar.py)
