@@ -123,7 +123,7 @@ They minimize misunderstanding and maximize efficiency. Clear prompts help Claud
 
 #### Exercises
 
-- [Exercise_3_1](exercise_3_1_math_correction.py) - Math Correction
+- [Exercise 3.1](exercise_3_1_math_correction.py) - Math Correction
 > Adapt the text and / or system prompt to make Claude grade the solution as incorrectly solved. 
 
 
