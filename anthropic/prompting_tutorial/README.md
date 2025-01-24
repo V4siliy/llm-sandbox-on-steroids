@@ -40,7 +40,7 @@ Clear User/Assistant formatting ensures the AI accurately understands and engage
 - [Exercise 1.2](exercise_1_2_system_prompt.py) - System Prompt
 > Make Claude respond like it's a three-year-old child
 
-## Chapter 2: Being Clear and Direct
+### Chapter 2: Being Clear and Direct
 
 🧠 **Why is clarity important?** 
 
@@ -80,6 +80,52 @@ They minimize misunderstanding and maximize efficiency. Clear prompts help Claud
 > Modify the basketball player prompt to responds with ONLY the name of one specific player, with no other words or punctuation.
 - [Exercise 2.3](exercise_2_3_write_a_story.py) - Write a Story
 > Modify the prompt to response with a story over 800 words
+
+
+### Chapter 3: Assigning Roles (Role Prompting)
+
+- 🧠 **What is role prompting?**  
+  Role prompting is the technique of instructing Claude to “inhabit” a specific role to better align its responses with your expectations. By defining a clear role or persona, Claude gains contextual direction to improve performance.
+
+- 📋 **Why does role prompting matter?**  
+  Without explicit instructions, Claude has no existing context for how to behave or respond. Assigning a role provides a structured framework that guides language style, tone, and focus in alignment with your goals.
+
+- 🎭 **How does role prompting improve responses?**
+  - **Improves expertise:** Assigning a role (e.g., teacher, historian, programmer) focuses Claude’s answers to reflect expertise in that domain.
+  - **Adapts style:** You can shape the tone to be conversational, formal, persuasive, or explain things in simple terms by choosing roles like "friendly mentor" or "business consultant."
+  - **Enhances task-specific performance:** Roles help Claude tackle specialized tasks, such as "scientist explaining a concept" or "journalist summarizing the news."
+
+- ✍️ **What should you include in role prompts?**  
+  To maximize clarity, a detailed role description should include:
+  1. **Name the role:** For example, ask Claude to "act as a software engineer" or "pretend to be a historian."
+  2. **Define responsibilities:** Clearly state what the role entails (e.g., “Explain Python code with examples”).
+  3. **Add the task context:** Include all relevant details and specific expectations for the work.
+
+- 🌟 **Examples of role prompting:**  
+  - "You are a customer support agent. Answer politely and solve issues clearly and step-by-step."  
+  - "Imagine you’re a personal trainer. Outline a beginner’s weekly workout plan for weightlifting."  
+  - "Think like a management consultant. Provide three actionable suggestions to improve team productivity."
+
+- 🤔 **Where can role prompting be applied?**  
+  - **System prompt level:** Set the role as part of the system-level instructions so it remains consistent throughout the interaction.
+  - **User message:** Dynamically assign or change roles within a single query as part of the user’s message.
+
+- 🔄 **How do roles affect tone and style?**  
+  Defining a role can dramatically impact the tone of Claude’s replies:
+  - A journalist might respond with factual brevity.
+  - A teacher might offer an explanatory tone with step-by-step breakdowns.
+  - A creative writer might provide imaginative, poetic responses.
+
+- 🚧 **Avoiding pitfalls with role prompting:**  
+  - **Be specific:** Vague role assignments like "be an expert" might yield generic outputs. Define what “expertise” means in your context.  
+  - **Balance detail:** Give enough detail for clarity but avoid overly convoluted instructions that obscure the goal.  
+  - **Adapt as needed:** If the role isn’t producing the desired responses, tweak or expand the role description.
+
+#### Exercises
+
+- [Exercise_3_1](exercise_3_1_math_correction.py) - Math Correction
+> Adapt the text and / or system prompt to make Claude grade the solution as incorrectly solved. 
+
 
 ## Extra materials
 - Antropic Documentation
