@@ -26,6 +26,7 @@ Let's put Obsidian aside and gather all my notes and education progress in one p
 
 ### Cources
 - [llm-zoomcamp](https://github.com/DataTalksClub/llm-zoomcamp)
+- Machine learning course by Andrew Ng [Coursera](https://www.coursera.org/learn/machine-learning-course)
 
 ### Books
 - **Why Machines Learn: The Elegant Math Behind Modern AI** by Anil Ananthaswamy 
