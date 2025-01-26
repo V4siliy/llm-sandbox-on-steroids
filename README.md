@@ -32,6 +32,7 @@ Let's put Obsidian aside and gather all my notes and education progress in one p
 
 ### Science papers
 - Learning to Compress Prompts with Gist Tokens [2304.08467](https://arxiv.org/abs/2304.08467)
+- ReAct: Synergizing Reasoning and Acting in Language Models [2210.03629](https://arxiv.org/abs/2210.03629)
 
 ## ✅ Done
 
