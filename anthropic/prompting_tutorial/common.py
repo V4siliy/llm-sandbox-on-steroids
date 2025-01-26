@@ -19,15 +19,17 @@ class AnthropicClient:
     def __exit__(self, type, value, traceback):
         self.client = None
 
-    def get_completion(self, prompt, system_prompt=""):
+    def get_completion(self, prompt, system_prompt="", prefill=""):
+        messages = [{"role": "user", "content": prompt}]
+        if prefill:
+            messages.append({"role": "assistant", "content": prefill})
+
         message = self.client.messages.create(
             model=self.model_name,
             max_tokens=2000,
             temperature=0.0,
             system=system_prompt,
-            messages=[
-                {"role": "user", "content": prompt}
-            ]
+            messages=messages
         )
         self.result = message.content[0].text
         return self.result
