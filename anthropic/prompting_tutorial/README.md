@@ -21,6 +21,7 @@ Check [beginner.md](beginner.md) for details
 - **Chapter 4:** Separating Data from Instructions
 - **Chapter 5:** Formatting Output & Speaking for Claude
 - **Chapter 6:** Precognition (Thinking Step by Step)
+- **Chapter 7:** Using Examples
 
 Check [intermediate.md](intermediate.md) for details
 

@@ -3,22 +3,29 @@ import re
 from common import AnthropicClient
 
 if __name__ == "__main__":
-    PROMPT = """Please classify email to these categories
-
-        <email>{email}</email>
-
-        Do not include any extra words except the full category name.
-
+    PROMPT = """Please classify emails into the following categories, and do not include explanations: 
         <categories>
         (A) Pre-sale question
         (B) Broken or defective item
         (C) Billing question
         (D) Other (please explain)
         </categories>
+        
+        <examples>
+        Q: My Mixmaster won't turn on.
+        A: The correct category is: B
+        
+        Q: How much does it cost to buy a Mixmaster4000?
+        A: The correct category is: A
+        
+        Q: Please remove me from your mailing list.
+        A: The correct category is: D
+        </examples>
+        
+        Categorize email: {email}
     """
 
-    # Prefill for Claude's response, if any
-    PREFILL = "("
+    PREFILL = "The correct category is:"
 
     EMAILS = [
         "Hi -- My Mixmaster4000 is producing a strange noise when I operate it. "
@@ -41,14 +48,6 @@ if __name__ == "__main__":
         ["D"]
     ]
 
-    # Dictionary of string values for each category to be used for regex grading
-    REGEX_CATEGORIES = {
-        "A": r"A\) P",
-        "B": r"B\) B",
-        "C": r"C\) B",
-        "D": r"D\) O"
-    }
-
     for i, email in enumerate(EMAILS):
         with AnthropicClient() as client:
             formatted_prompt = PROMPT.format(email=email)
@@ -57,6 +56,6 @@ if __name__ == "__main__":
             print(response)
 
             def _grade_exercise(text):
-                return any([bool(re.search(REGEX_CATEGORIES[ans], text)) for ans in ANSWERS[i]])
+                return any([bool(re.search(ans, text[-1])) for ans in ANSWERS[i]])
 
             client.validate(_grade_exercise)

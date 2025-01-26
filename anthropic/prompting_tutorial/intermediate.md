@@ -196,3 +196,74 @@
 > sort emails into categories
 - [exercise_6_2_email_classification_formatting.py](exercise_6_2_email_classification_formatting.py)
 > refine the output of the above prompt to yield an answer formatted exactly how we want it.
+
+
+## Chapter 7: Using Examples (Few-Shot Prompting)
+
+- 🧠 **What is few-shot prompting?**  
+  Few-shot prompting involves providing Claude with examples within your prompt to help it understand **how you want it to behave**, or **what kind of output you expect.** It’s a highly effective technique for guiding tone, structure, and accuracy.
+
+- 📋 **Why does it work?**  
+  Instead of relying solely on abstract descriptions of desired behavior:
+  - **Examples clarify expectations** by directly showing what’s right (or wrong).  
+  - **Claude learns by demonstration,** aligning its output style and structure based on the examples provided.
+
+- 🔢 **What do terms like “few-shot” mean?**
+  - **Zero-shot prompting:** No examples are provided; only instructions.  
+  - **One-shot prompting:** A single example is used.  
+  - **Few-shot prompting:** Multiple examples are included to pattern-match behavior.  
+  - **n-shot prompting:** “n” refers to the number of examples provided.
+
+- 🎯 **What problems does few-shot prompting solve?**
+  1. Ensures correctness by modeling the expected output.  
+  2. Enforces structure in complex tasks (e.g., a list, table, or summary).  
+  3. Gives Claude clear guidelines for tone, style, or format without detailed explanations.
+
+- ✍️ **A few-shot example for tone and format:**  
+  Task: Summarize an article in bullet points.  
+  Prompt:  
+  ```
+  Summarize articles concisely as bullet points:
+  
+  Example 1:  
+  Article: "A new AI model is released with improved capabilities."  
+  Summary:  
+  - A new AI model has been launched.  
+  - It features improved performance.
+  
+  Example 2:  
+  Article: "Scientists discover a new exoplanet similar to Earth."  
+  Summary:  
+  - A new Earth-like exoplanet has been discovered.  
+  - It has potential for supporting life.
+  
+  Now summarize the following article: "The stock market sees dramatic gains in technology sectors."
+  ```
+
+- 🌟 **Why use examples instead of descriptions?**
+  - It’s easier for Claude to pattern-match outputs when given examples rather than relying on lengthy descriptions of desired formatting or tone.  
+  - Examples act as a “shortcut” to align results with expectations, especially if the task is nuanced or unfamiliar.
+
+- 🔄 **Best practices for few-shot prompting:**
+  1. **Choose relevant examples:** Use examples that reflect your task closely to avoid confusion.  
+  2. **Keep examples similar in tone and format:** Consistency helps Claude generalize better.  
+  3. **Limit cognitive overload:** Fewer, high-quality examples are typically better than overloading the prompt with too many.  
+  4. **Position examples thoughtfully:** Place examples near the task for clarity and ensure the formatting is clean.
+
+- 🚧 **Considerations for few-shot prompting:**
+  - Be mindful of **token usage.** More examples = higher token cost. Keep examples concise yet effective.  
+  - Don’t assume Claude will perfectly mimic every example—it may still need refinement through iterations.  
+
+- 🛠️ **Zero-shot vs. Few-shot in practice:**  
+  Compare the performance of a **zero-shot** vs. **few-shot** prompt:  
+  - **Zero-shot Prompt:**  
+    *"Summarize the article concisely as bullet points."*  
+    Claude’s Output:  
+    - May follow instructions but potentially misses nuances of style or depth.  
+  - **Few-shot Prompt with Examples:**  
+    By showing 2-3 concise bullet point examples, Claude is far more likely to stick to the format, improving the accuracy and presentation.
+
+### Exercises
+
+- [exercise_7_1_email_formatting_via_examples.py](exercise_7_1_email_formatting_via_examples.py)
+> Edit the PROMPT to use "few-shot" examples of emails + proper classification (and formatting) to get correct answer

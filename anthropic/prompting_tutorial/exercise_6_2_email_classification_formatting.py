@@ -3,7 +3,7 @@ import re
 from common import AnthropicClient
 
 if __name__ == "__main__":
-    PROMPT = """User: Please classify email to these categories
+    PROMPT = """Please classify email to these categories
 
         <email>{email}</email>
 
@@ -57,9 +57,7 @@ if __name__ == "__main__":
             response = client.get_completion(formatted_prompt, prefill=PREFILL)
             print(response)
 
-
             def _grade_exercise(text):
                 return any([bool(re.search(REGEX_CATEGORIES[ans], text)) for ans in ANSWERS[i]])
-
 
             client.validate(_grade_exercise)
