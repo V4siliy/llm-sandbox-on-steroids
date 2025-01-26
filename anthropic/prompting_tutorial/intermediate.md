@@ -193,9 +193,9 @@
 ### Exercises
 
 - [exercise_6_1_classifying_emails.py](exercise_6_1_classifying_emails.py)
-> sort emails into categories
+> Sort emails into categories.
 - [exercise_6_2_email_classification_formatting.py](exercise_6_2_email_classification_formatting.py)
-> refine the output of the above prompt to yield an answer formatted exactly how we want it.
+> Refine the output of the above prompt to yield an answer formatted exactly how we want it.
 
 
 ## Chapter 7: Using Examples (Few-Shot Prompting)
@@ -266,4 +266,4 @@
 ### Exercises
 
 - [exercise_7_1_email_formatting_via_examples.py](exercise_7_1_email_formatting_via_examples.py)
-> Edit the PROMPT to use "few-shot" examples of emails + proper classification (and formatting) to get correct answer
+> Edit the PROMPT to use "few-shot" examples of emails + proper classification (and formatting) to get correct answer.

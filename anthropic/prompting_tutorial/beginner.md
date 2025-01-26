@@ -28,9 +28,9 @@ Clear User/Assistant formatting ensures the AI accurately understands and engage
 ### Exercises
 
 - [Exercise 1.1](exercise_1_1_counting_to_three.py) - Counting to Three
-> Using proper User/Assistant formatting, write a prompt to get Claude to count to three
+> Using proper User/Assistant formatting, write a prompt to get Claude to count to three.
 - [Exercise 1.2](exercise_1_2_system_prompt.py) - System Prompt
-> Make Claude respond like it's a three-year-old child
+> Make Claude respond like it's a three-year-old child.
 
 ## Chapter 2: Being Clear and Direct
 
@@ -71,7 +71,7 @@ They minimize misunderstanding and maximize efficiency. Clear prompts help Claud
 - [Exercise 2.2](exercise_2_2_one_player_only.py) - One Player Only
 > Modify the basketball player prompt to responds with ONLY the name of one specific player, with no other words or punctuation.
 - [Exercise 2.3](exercise_2_3_write_a_story.py) - Write a Story
-> Modify the prompt to response with a story over 800 words
+> Modify the prompt to response with a story over 800 words.
 
 
 ## Chapter 3: Assigning Roles (Role Prompting)

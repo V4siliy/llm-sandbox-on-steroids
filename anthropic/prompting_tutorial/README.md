@@ -25,8 +25,14 @@ Check [beginner.md](beginner.md) for details
 
 Check [intermediate.md](intermediate.md) for details
 
+### Advanced
+- **Chapter 8:** Avoiding Hallucinations
+
+Check [advanced.md](advanced.md) for details
+
 ## Extra materials
 - Antropic Documentation
+  - [Messages](https://docs.anthropic.com/en/api/messages)
   - [System Prompts](https://docs.anthropic.com/en/release-notes/system-prompts)
     - [Youtube](https://www.youtube.com/watch?v=ZQ7gpMVMaKQ)
   - [Use prompt templates and variables](Use prompt templates and variables)
