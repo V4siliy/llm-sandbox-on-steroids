@@ -19,6 +19,8 @@ Check [beginner.md](beginner.md) for details
 
 ### Intermediate 
 - **Chapter 4:** Separating Data from Instructions
+- **Chapter 5:** Formatting Output & Speaking for Claude
+- **Chapter 6:** Precognition (Thinking Step by Step)
 
 Check [intermediate.md](intermediate.md) for details
 

@@ -132,3 +132,67 @@
 > Modify the haiku prompt to write two haikus about the animal instead of just one. It should be clear where one poem ends and the other begins.
 - [exercise_5_3_two_haikus_two_animals.py](exercise_5_3_two_haikus_two_animals.py)
 > Modify the haiku prompt to write two haikus about two different animals. 
+
+
+## Chapter 6: Precognition (Thinking Step by Step)
+
+- 🧠 **Why does “thinking step by step” matter?**  
+  Like humans, Claude performs better in complex tasks when given space to methodically process the problem. Rushing straight to an answer often leads to mistakes. By explicitly breaking down processes, Claude becomes more accurate and thoughtful.
+
+- 📋 **What is step-by-step reasoning?**  
+  Step-by-step reasoning involves spelling out the thinking process before providing an answer. It’s like asking Claude to “show its work.” This transparency not only improves accuracy but also makes the reasoning more understandable.
+
+- 🏗️ **How can you encourage Claude to think step by step?**
+  **Literal instructions:** Explicitly describe the steps Claude should take:
+  ```
+  First, write the best arguments for each side in <positive-argument> and <negative-argument> XML tags. Then, generate your final answer.
+  ```
+  - This structure allows Claude to process the problem comprehensively before answering.
+
+- 🎭 **Role prompting can help:**  
+  Pairing step-by-step reasoning with role prompting often boosts Claude’s ability to think deeply. For example:
+  ```
+  Imagine you are an unbiased judge reviewing this case. List the pros and cons step by step before making a final ruling.
+  ```
+
+- 🔄 **Why does order matter?**  
+  Claude is sometimes **sensitive to the order** of presented arguments. For example, switching the order of “positive” and “negative” arguments might lead Claude to favor the second option—likely due to patterns learned during training. Managing order thoughtfully is crucial for nuanced tasks.
+
+- 💡 **Examples of step-by-step tasks:**  
+  1. **Debates/Assessments:** Ask Claude to list arguments on both sides before forming a conclusion.  
+     Example:  
+     ```
+     Brainstorm the pros and cons of remote work in XML tags, then generate your overall assessment.
+     ```
+  2. **Complex Reasoning:** Build intermediate reasoning steps to solve tricky problems.  
+     Example:  
+     ```
+     Start by brainstorming (in <brainstorm> tags) and list all potential actors born in the year 1956. Then, name a famous movie starring one of them.
+     ```
+
+- 🧩 **Breaking things down systematically improves accuracy:**  
+  Consider a task where Claude needs to recommend a course of action:  
+  ```
+  First, identify the potential risks of the project in <risks>. Then, describe the advantages in <advantages>. Finally, provide a well-balanced recommendation.
+  ```
+
+- 🚧 **What doesn’t work?**  
+  - Asking Claude to “think silently” (i.e., think internally but only share the answer) is ineffective. Thought processes need to be explicitly verbalized within the response.
+  
+- 🌟 **Why is this powerful?**
+  - **Improves outcomes:** Breaking tasks into smaller components helps with focus and accuracy.  
+  - **Greater transparency:** Verbalizing the reasoning allows humans to follow and verify the process.  
+  - **Consideration of multiple perspectives:** Structured thinking explores all aspects of the task.  
+
+- ⚙️ **Best Practices for Step-by-Step Reasoning:**
+  1. **Explicit steps:** Clearly outline the process you want Claude to follow.
+  2. **Use XML tags or clear formats:** Make the reasoning process easy to distinguish, both for clarity and parsing.
+  3. **Check for subtle biases:** Be mindful of the order in which arguments or options are presented.
+  4. **Iterate for refinement:** If answers don’t meet expectations, refine the instructions by including exact examples or restructuring.
+
+### Exercises
+
+- [exercise_6_1_classifying_emails.py](exercise_6_1_classifying_emails.py)
+> sort emails into categories
+- [exercise_6_2_email_classification_formatting.py](exercise_6_2_email_classification_formatting.py)
+> refine the output of the above prompt to yield an answer formatted exactly how we want it.
