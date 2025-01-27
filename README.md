@@ -9,8 +9,6 @@ Let's put Obsidian aside and gather all my notes and education progress in one p
 ## ⌛ Now
 
 ### Cources
-- Anthropic's Prompt Engineering Interactive Tutorial
-  - Go to [README.md](anthropic%2Fprompting_tutorial%2FREADME.md)
 - [Neural Networks: Zero to Hero](https://karpathy.ai/zero-to-hero.html) by Andrey Karpathy
 
 ### Books
@@ -39,6 +37,10 @@ Let's put Obsidian aside and gather all my notes and education progress in one p
 - ReAct: Synergizing Reasoning and Acting in Language Models [2210.03629](https://arxiv.org/abs/2210.03629)
 
 ## ✅ Done
+
+### Cources
+- Anthropic's Prompt Engineering Interactive Tutorial
+  - Go to [README.md](anthropic%2Fprompting_tutorial%2FREADME.md)
 
 ### Science papers
 - DarkBERT: A Language Model for the Dark Side of the Internet [2305.08596](https://arxiv.org/abs/2305.08596)
