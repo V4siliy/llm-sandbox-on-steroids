@@ -27,6 +27,7 @@ Check [intermediate.md](intermediate.md) for details
 
 ### Advanced
 - **Chapter 8:** Avoiding Hallucinations
+- **Chapter 9:** Complex Prompts
 
 Check [advanced.md](advanced.md) for details
 
