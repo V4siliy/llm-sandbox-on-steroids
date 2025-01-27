@@ -23,6 +23,8 @@ Let's put Obsidian aside and gather all my notes and education progress in one p
 ## 🛣️ Roadmap
 
 - [Prompt Engineering Guide](https://www.promptingguide.ai/)
+- [Embeddings](https://docs.anthropic.com/en/docs/build-with-claude/embeddings)
+- [Anthropic RAG cookbook examples](https://github.com/anthropics/anthropic-cookbook/tree/main/third_party)
 
 ### Cources
 - [llm-zoomcamp](https://github.com/DataTalksClub/llm-zoomcamp)
