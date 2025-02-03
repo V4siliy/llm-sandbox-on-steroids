@@ -45,6 +45,7 @@ Let's put Obsidian aside and gather all my notes and education progress in one p
 
 ### Science papers
 - DarkBERT: A Language Model for the Dark Side of the Internet [2305.08596](https://arxiv.org/abs/2305.08596)
+- LLaVA-Med: Training a Large Language-and-Vision Assistant for Biomedicine in One Day [2306.00890](http://arxiv.org/abs/2306.00890)
 
 ### Videos
 
