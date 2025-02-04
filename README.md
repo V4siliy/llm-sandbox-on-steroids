@@ -36,6 +36,7 @@ Let's put Obsidian aside and gather all my notes and education progress in one p
 - Language Models are Few-Shot Learners [2005.14165](http://arxiv.org/abs/2005.14165)
 - ReAct: Synergizing Reasoning and Acting in Language Models [2210.03629](https://arxiv.org/abs/2210.03629)
 - Why do LLaVA Vision-Language Models Reply to Images in English? [2407.02333](https://arxiv.org/abs/2407.02333)
+- Vision-Language Pre-training: Basics, Recent Advances, and Future Trends [2210.09263](http://arxiv.org/abs/2210.09263)
 
 ## ✅ Done
 
