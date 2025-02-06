@@ -7,6 +7,7 @@ Let's put Obsidian aside and gather all my notes and education progress in one p
 - My Prompts lives [here](prompts%2FREADME.md)
 
 ## ⌛ Now
+- Andrej Karpathy - [Deep Dive into LLMs like ChatGPT](https://www.youtube.com/watch?v=7xTGNNLPyMI)
 
 ### Cources
 - [Neural Networks: Zero to Hero](https://karpathy.ai/zero-to-hero.html) by Andrey Karpathy
@@ -32,6 +33,7 @@ Let's put Obsidian aside and gather all my notes and education progress in one p
 - **Why Machines Learn: The Elegant Math Behind Modern AI** by Anil Ananthaswamy 
 
 ### Science papers
+- Training language models to follow instructions with human feedback [2203.02155](http://arxiv.org/abs/2203.02155)
 - Learning to Compress Prompts with Gist Tokens [2304.08467](https://arxiv.org/abs/2304.08467)
 - Language Models are Few-Shot Learners [2005.14165](http://arxiv.org/abs/2005.14165)
 - ReAct: Synergizing Reasoning and Acting in Language Models [2210.03629](https://arxiv.org/abs/2210.03629)
