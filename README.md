@@ -18,6 +18,7 @@ Let's put Obsidian aside and gather all my notes and education progress in one p
 
 ### Science papers
 - Attention is all you need [1706.03762](https://arxiv.org/abs/1706.03762)
+- DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning [2501.12948](http://arxiv.org/abs/2501.12948)
 
 ## 🛣️ Roadmap
 
