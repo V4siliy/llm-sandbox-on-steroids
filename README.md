@@ -7,7 +7,6 @@ Let's put Obsidian aside and gather all my notes and education progress in one p
 - My Prompts lives [here](prompts%2FREADME.md)
 
 ## ⌛ Now
-- Andrej Karpathy - [Deep Dive into LLMs like ChatGPT](https://www.youtube.com/watch?v=7xTGNNLPyMI)
 
 ### Cources
 - [Neural Networks: Zero to Hero](https://karpathy.ai/zero-to-hero.html) by Andrey Karpathy
@@ -54,3 +53,4 @@ Let's put Obsidian aside and gather all my notes and education progress in one p
 ### Videos
 
 - [Let's build the GPT Tokenizer](https://www.youtube.com/watch?v=zduSFxRajkE)
+- [Deep Dive into LLMs like ChatGPT](https://www.youtube.com/watch?v=7xTGNNLPyMI)
