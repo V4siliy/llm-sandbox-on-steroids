@@ -9,6 +9,7 @@ Let's put Obsidian aside and gather all my notes and education progress in one p
 ## ⌛ Now
 
 ### Cources
+- [Prompt Engineering Guide](https://www.promptingguide.ai/)
 - [Neural Networks: Zero to Hero](https://karpathy.ai/zero-to-hero.html) by Andrey Karpathy
 
 ### Books
@@ -21,7 +22,6 @@ Let's put Obsidian aside and gather all my notes and education progress in one p
 
 ## 🛣️ Roadmap
 
-- [Prompt Engineering Guide](https://www.promptingguide.ai/)
 - [Embeddings](https://docs.anthropic.com/en/docs/build-with-claude/embeddings)
 - [Anthropic RAG cookbook examples](https://github.com/anthropics/anthropic-cookbook/tree/main/third_party)
 
